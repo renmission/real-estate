@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-/utils/fetchApi.js
+/utils
 
 # testing
 /coverage
