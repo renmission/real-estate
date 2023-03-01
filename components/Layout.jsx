@@ -1,16 +1,17 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>RealEst.</title>
+        <title>Realty.</title>
       </Head>
-      <div className="max-w-7xl mx-auto">
+      <div className="flex flex-col h-screen justify-between">
         <header><Navbar /></header>
         <main>{children}</main>
-        <footer>Footer</footer>
+        <footer><Footer /></footer>
       </div>
     </>
   );
